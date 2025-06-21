@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organization Portal - Projects</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <img src="images/SvR logo.png" style="height: 80px; width: 80px;">
+            <h1>Small Voice of Reminder</h1>
+            <nav>
+                <button id="menuToggle">☰ Menu</button>
+                <ul id="navMenu">
+                    <li><a href="dashboard.html">Dashboard</a></li>
+                    <li><a href="announcements.html">Announcements</a></li>
+                    <li><a href="members.html">Members Area</a></li>
+                    <li><a href="projects.html" class="active">Projects</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><button id="logoutBtn">Logout</button></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="projects-container">
+            <section class="current-projects">
+                <h2>Current Projects</h2>
+                <div id="currentProjects">
+                    <!-- Current projects will be loaded here -->
+                </div>
+            </section>
+
+            <section class="completed-projects">
+                <h2>Completed Projects</h2>
+                <div id="completedProjects">
+                    <!-- Completed projects will be loaded here -->
+                </div>
+            </section>
+
+            <section class="upcoming-projects">
+                <h2>Upcoming Projects</h2>
+                <div id="upcomingProjects">
+                    <!-- Upcoming projects will be loaded here -->
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Contact Us</h4>
+                <p>Email: info@svr.org</p>
+                <p>Phone: +265 994 906 800</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="dashboard.html">Dashboard</a></li>
+                    <li><a href="announcements.html">Announcements</a></li>
+                    <li><a href="members.html">Members Area</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2021 Small Voice of Reminder. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organization Portal - Login</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="login-container">
+        <header>
+            <img src="images/SvR logo.png" style="height: 80px; width: 80px;">
+            <h1>Small Voice of Reminder</h1>
+            <p>Welcome to our organization's member portal</p>
+        </header>
+        
+        <div class="login-form">
+            <h2>Member Login</h2>
+            <form id="loginForm">
+                <div class="form-group">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" required>
+                </div>
+                <button type="submit">Login</button>
+            </form>
+            <p id="loginError" class="error-message"></p>
+            <p>New member? <a href="#" id="registerLink">Register here</a></p>
+        </div>
+
+        <div class="register-form hidden">
+            <h2>Member Registration</h2>
+            <form id="registerForm">
+                <div class="form-group">
+                    <label for="newUsername">Username:</label>
+                    <input type="text" id="newUsername" required>
+                </div>
+                <div class="form-group">
+                    <label for="newPassword">Password:</label>
+                    <input type="password" id="newPassword" required>
+                </div>
+                <div class="form-group">
+                    <label for="confirmPassword">Confirm Password:</label>
+                    <input type="password" id="confirmPassword" required>
+                </div>
+                <button type="submit">Register</button>
+            </form>
+            <p id="registerError" class="error-message"></p>
+            <p>Already a member? <a href="#" id="loginLink">Login here</a></p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Organization Portal. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
